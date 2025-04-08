@@ -1,9 +1,4 @@
 # **Healthcare Chatbot**
-<div align="center">
-    <img src="Images/chatbot.png" alt="Chatbot Interface" width="700">
-</div>
-
----
 
 ## 🌟 **Description**
 The Healthcare Chatbot is an intelligent desktop-based application designed to assist users in identifying potential health conditions based on their symptoms. It leverages machine learning models and OpenAI's GPT for providing insightful responses and suggestions. The project uses Tkinter for the graphical user interface and various Python libraries for data handling and processing.
@@ -140,22 +135,13 @@ Contributions are welcome! To contribute:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
-
-
-##  🙏 **Acknowledgments**
-- [OpenAI](https://openai.com/) for providing GPT API.
-- [Scikit-learn](https://scikit-learn.org/) for machine learning tools.
-- Python community for amazing libraries and resources.
-
----
 ## 📧 Contact
 
 For any inquiries or support, feel free to reach out:
 
-- **Name:** Chetan Wani
-- **GitHub:** [Wani-Chetan-999](https://github.com/Wani-Chetan-999)
-- **Contact:** 8275540085
-- **Email:** [02ckwani@gmail.com](mailto:02ckwani@gmail.com)
+- **Name:** Yashmeet Baid
+- **Contact:** +91 9900685401
+- **Email:** [yashmeet1807@gmail.com](mailto:yashmeet1807@gmail.com)
 
 <div align="center"> 
   <h4>⭐ Don't forget to star this repository if you found it useful! ⭐</h4> 
