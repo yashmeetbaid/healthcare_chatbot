@@ -35,7 +35,7 @@ The Healthcare Chatbot is an intelligent desktop-based application designed to a
 ### 🚀 **Steps**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Wani-Chetan-999/Healthcare_Chatbot.git
+   git clone https://github.com/yashmeetbaid/healthcare_Chatbot.git
    cd Healthcare_Chatbot
    ```
 
@@ -47,11 +47,11 @@ The Healthcare Chatbot is an intelligent desktop-based application designed to a
 3. Set up your OpenAI API Key as an environment variable:
    - On **Windows**:
      ```cmd
-     set OPENAI_API_KEY=your_openai_api_key
+     set GOOGLE_API_KEY=your_gemini_api_key
      ```
    - On **macOS/Linux**:
      ```bash
-     export OPENAI_API_KEY=your_openai_api_key
+     export GOOGLE_API_KEY=your_gemini_api_key
      ```
 
 4. Run the application:
@@ -74,12 +74,9 @@ Healthcare_Chatbot/
 ```
 ├── 🖥️ `main.py`                 # Main application script
 ├── 🤖 `bot.py`                  # Contains chatbot logic
-├── 🧠 `gptBot.py`               # Integration with OpenAI's GPT
+├── 🧠 `gptBot.py`               # Integration with Gemini's model
 ├── 📋 `requirements.txt`        # List of dependencies
 ├── 📄 `README.md`               # Project documentation
-├── 📸 `/screenshots/`           # Folder for images/screenshots
-│   ├── 🖼️ `chatbot_interface.png`
-│   └── 🖼️ `health_prediction.png`
 └── 📊 `/data/`
 ```
 
