@@ -91,34 +91,6 @@ Healthcare_Chatbot/
 
 ---
 
-## **Screenshots**
- - **Chatbot Interface**
-<div align="center">
-<img src="Screenshots/Main Window.png" alt="Chatbot Interface" width="700" >
-</div>
-    
- - **Get Dignose Screen**
-<div align="center">
-<img src="Screenshots/Get Dignose.png" alt="Chatbot Interface" width="700">
-</div>
-
- - **Symptoms Asking Screen**
-<div align="center">
-<img src="Screenshots/Symptoms.png" alt="Chatbot Interface" width="700" ">
-</div>
-    
- - **Result And Precautions Screen**
-<div align="center">
-<img src="Screenshots/Result And Precaustions.png" alt="Chatbot Interface" width="700" >
-</div>
-
- - **About Screen**
-<div align="center">
-<img src="Screenshots/about.png" alt="Chatbot Interface" width="500" >
-</div>
-
----
-
 ## 🤝 **Contributing**
 Contributions are welcome! To contribute:
 1. Fork the repository.
