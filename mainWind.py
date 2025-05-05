@@ -4,7 +4,7 @@ import tkinter
 from tkinter import ttk
 from PIL import Image, ImageTk
 from askBot import AskBot
-from gptBot import GptBot
+from gptBot import GeminiBot
 from about import About
 
 class MainWin:
