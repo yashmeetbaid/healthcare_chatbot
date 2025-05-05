@@ -22,7 +22,7 @@ The Healthcare Chatbot is an intelligent desktop-based application designed to a
   - pandas and numpy (data handling)
   - scikit-learn (machine learning)
   - Pillow (image processing)
-  - OpenAI API (chat response generation)
+  - Gemini API (chat response generation)
 
 ---
 
