@@ -10,8 +10,8 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /app
 
 # Copy requirements file and install dependencies
-COPY Requirements.txt .
-RUN pip install --no-cache-dir -r Requirements.txt
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the entire project into the container
 COPY . .
