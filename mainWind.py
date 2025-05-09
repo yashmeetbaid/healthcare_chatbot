@@ -36,7 +36,7 @@ class MainWin:
         b4.place(x=626,y=115,width=151,height=35)
 
 
-        img2 = Image.open("Images/frontpage.jpg")
+        img2 = Image.open("Images/frontpage.png")
         img2 = img2.resize((800, 600), Image.LANCZOS)
         self.photoimg2 = ImageTk.PhotoImage(img2)
         label2 = tk.Label(self.root, image=self.photoimg2)
