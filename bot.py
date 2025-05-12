@@ -1,24 +1,33 @@
-import openai
 import os
+import google.generativeai as genai
+from dotenv import load_dotenv
 
-# Set your OpenAI API key here (or use environment variables)
-openai.api_key =os.getenv("OPENAI_API_KEY")
+# Load environment variables from .env file
+load_dotenv()
+
+# Configure the Gemini API
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+
+# Initialize the Gemini model
+model = genai.GenerativeModel('models/gemini-1.5-pro-latest')
+
+# Start a chat session (optional, useful for context history)
+chat = model.start_chat(history=[
+    {
+        "role": "user",
+        "parts": ["You are a helpful assistant."]
+    },
+    {
+        "role": "model",
+        "parts": ["Understood. I'm here to help!"]
+    }
+])
+
 def get_gpt_response(prompt):
     try:
-        # Make a request to the OpenAI API for chat completion
-        response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",  # You can use 'gpt-4' if you have access
-            messages=[
-                {"role": "system", "content": "You are a helpful assistant."},
-                {"role": "user", "content": prompt}
-            ]
-        )
-        
-        # Extract the response content from the API response
-        bot_response = response['choices'][0]['message']['content']
-        
-        return bot_response
-
+        # Get response from Gemini chat
+        response = chat.send_message(prompt)
+        return response.text
     except Exception as e:
         return f"Error: {str(e)}"
 
