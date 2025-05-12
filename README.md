@@ -30,7 +30,7 @@ The Healthcare Chatbot is an intelligent desktop-based application designed to a
 
 ### **Prerequisites**
 - Python 3.x installed on your system.
-- API key for OpenAI (store securely as an environment variable `OPENAI_API_KEY`).
+- API key for gemini (store securely as an environment variable `GOOGLE_API_KEY`).
 
 ### 🚀 **Steps**
 1. Clone the repository:
