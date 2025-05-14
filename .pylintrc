@@ -1,0 +1,60 @@
+[MASTER]
+# Specify the Python version
+py-version=3.8
+
+# List of directories to ignore (comma-separated)
+ignore=venv,build,dist,__pycache__
+
+# List of files or directories to be skipped
+ignore-patterns=test_.*.py
+
+# Load plugins (if any)
+load-plugins=
+
+[MESSAGES CONTROL]
+# Disable the message, report, category or checker with the given id(s)
+disable=
+    C0114,  # missing-module-docstring
+    C0115,  # missing-class-docstring
+    C0116,  # missing-function-docstring
+    R0903,  # too-few-public-methods
+    R0913,  # too-many-arguments
+    R0914,  # too-many-locals
+    R0915,  # too-many-statements
+
+[REPORTS]
+# Set the output format. Available formats are text, parseable, colorized, json and msvs (visual studio)
+output-format = colorized
+
+# Tells whether to display a full report or only the messages
+reports=no
+
+[FORMAT]
+# Maximum number of characters on a single line.
+max-line-length=100
+
+# String used as indentation unit. This is usually "    " (4 spaces) or "\t" (1 tab).
+indent-string='    '
+
+[DESIGN]
+# Maximum number of arguments for function / method
+max-args=5
+
+# Maximum number of attributes for a class (see R0902).
+max-attributes=10
+
+[TYPECHECK]
+# List of module names for which member attributes should not be checked (useful for modules/projects where namespaces are manipulated during runtime and thus existing member attributes cannot be deduced by static analysis). It supports qualified module names, as well as Unix pattern matching.
+ignored-modules=tkinter,sklearn,openai
+
+[SIMILARITIES]
+# Minimum lines number of a similarity.
+min-similarity-lines=4
+
+[LOGGING]
+# Logging modules to check that the string format arguments are in logging function parameter format
+logging-modules=logging
+
+[VARIABLES]
+# Tells whether we should check for unused import in __init__ files.
+init-import=no
